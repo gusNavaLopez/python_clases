@@ -1,0 +1,23 @@
+from turtle import *
+from time import *
+import numpy as np
+color('blue', 'white')
+begin_fill()
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)  
+left(135)
+forward(np.hypot(100, 100))
+left(90)
+forward(np.hypot(50,50))
+left(90)
+forward(np.hypot(50,50))
+left(90)
+forward(np.hypot(100,100))
+left(45)
+end_fill()
+done()
